@@ -14,7 +14,7 @@ namespace Starter.API.Data.Services
             {
                 new Book()
                 {
-                    Id = Guid.NewGuid(),
+                    Id = new Guid("f717194e-6c78-440a-9def-22ad783e354b"),
                     Title = "Harry Potter",
                     Description = "By Jk Rowling",
                     Author = "JK Rowling"
